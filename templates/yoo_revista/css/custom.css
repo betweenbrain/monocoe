@@ -152,3 +152,39 @@ form.short.frontpage-form button { margin-top: 10px; }
 .menu-dropdown span.level1 > span {
 	padding: 11px 10px 10px 11px
 }
+
+h1 .accent {
+	color: #000;
+}
+
+.headerbar-wrap {
+	float: right;
+	width: 460px;
+}
+
+.headerbar-wrap .quick-links  {
+	clear: both;
+} 
+
+.quick-links ul, .quick-links ul  li {
+	display: inline;
+}
+
+.quick-links ul  li {
+	float: left;
+	padding-right: 14px;
+	border-top: 0 none;
+}
+
+.quick-links .menu-sidebar li.level1 {
+	border-top: 0 none;
+}
+
+.search-module {
+	clear: both;
+}
+
+/* fix for firefox mobile in navigation */
+#m-navigation ul {
+    background: #32373C;
+}
